@@ -124,7 +124,11 @@ img {
 	align-content: 2px,2px,center,5px,5px;
 	border: solid 2px black;
 }
-button {
+button{
 	font-size: 1.5em;
 	background-color:#ffefcc;
+}
+button a{
+	text-decoration: none;
+	color: black;
 }
