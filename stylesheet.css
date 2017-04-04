@@ -1,0 +1,119 @@
+@charset "utf-8";
+.bold{
+	font-weight: bold;
+}
+.underline{
+	text-decoration: underline;
+}
+.underlinebold
+{
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 200%;
+}
+.contactus{
+	line-height: 150%
+}
+.announcements{
+	width: 100%; 
+	line-height: 250%;
+	font-size: 18px;
+	border-top: solid 1px black;
+}
+.announcementstitle{
+	line-height: 150%;
+	text-decoration: underline;
+}
+.sitecontainer {
+	margin:auto;
+	width: 727px;
+	height: 100%;
+	background-color: #ffefcc;
+	padding: 0px;
+}
+/*Left line of sitecontainer with shadow*/
+.sitecontainerleft{
+	border-left: black 1px solid;
+	box-shadow: -2px 0px 2px #888;
+}
+/*Right line of sitecontainer with shadow*/
+.sitecontainerright{
+	border-right: black 1px solid;
+	box-shadow: 2px 0px 2px #888;
+}
+#navigation ul li a{
+	height: 40px;
+	padding: 0px 10px 0px 10px;
+	border-left: black 2px solid;
+	border-top: black 2px solid;
+	border-bottom: black 2px solid;
+	border-right: black 2px solid;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	font-size: 16px;
+	margin: auto;
+}
+#navigation li{
+	list-style: none;
+	display: inline;
+}
+#navigation ul li a:hover{
+	background-color: darkgray;
+}
+#navigation ul li a:active{
+	background-color: grey;
+}
+#content {
+	margin:auto;
+	height: 100%;
+	width: 702px;
+	padding-bottom: 20px;
+	border: solid 2px black;
+	background-color: white;
+	text-align: center justify;
+	display:inline-block;
+	font-size:16px;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	line-height: 125%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#sidenavigation ul li a{
+	margin:auto;
+	height: 40px;
+	padding: 0px 10px 0px 10px;
+	margin-top: -10px;
+	border-left: black 1px solid;
+	border-top: black 1px solid;
+	border-bottom: black 1px solid;
+	border-right: black 1px solid;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+#sidenavigation li{
+	list-style:none;
+	display: inline;
+}
+#sidenavigation ul li a:hover{
+	background-color:lightgray;
+}
+#sidenavigation ul li a:active{
+	background-color:darkgray;
+}
+body{
+	text-align: center;
+	margin-top: 0px;
+	background-color: #ffffe6;
+
+}
+img {
+	align-content: 2px,2px,center,5px,5px;
+	border: solid 2px black;
+}
+button {
+	font-size: 1.5em;
+	background-color:#ffefcc;
+}
